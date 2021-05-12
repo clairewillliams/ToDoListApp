@@ -18,6 +18,8 @@
 		15DB3B8E264C529B0037C88E /* ToDoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB3B8D264C529B0037C88E /* ToDoListAppUITests.swift */; };
 		15DB3B9F264C55260037C88E /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB3B9E264C55260037C88E /* ToDoTableViewController.swift */; };
 		15DB3BA4264C55A00037C88E /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB3BA3264C55A00037C88E /* ToDo.swift */; };
+		15DB3BAE264C6AF50037C88E /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB3BAD264C6AF50037C88E /* AddToDoViewController.swift */; };
+		15DB3BB3264C70C80037C88E /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB3BB2264C70C80037C88E /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		15DB3B8F264C529B0037C88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15DB3B9E264C55260037C88E /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		15DB3BA3264C55A00037C88E /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		15DB3BAD264C6AF50037C88E /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		15DB3BB2264C70C80037C88E /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				15DB3B71264C52980037C88E /* ToDoListApp.xcdatamodeld */,
 				15DB3B9E264C55260037C88E /* ToDoTableViewController.swift */,
 				15DB3BA3264C55A00037C88E /* ToDo.swift */,
+				15DB3BAD264C6AF50037C88E /* AddToDoViewController.swift */,
+				15DB3BB2264C70C80037C88E /* CompleteToDoViewController.swift */,
 			);
 			path = ToDoListApp;
 			sourceTree = "<group>";
@@ -269,8 +275,10 @@
 			files = (
 				15DB3B6D264C52980037C88E /* ViewController.swift in Sources */,
 				15DB3B69264C52980037C88E /* AppDelegate.swift in Sources */,
+				15DB3BB3264C70C80037C88E /* CompleteToDoViewController.swift in Sources */,
 				15DB3B6B264C52980037C88E /* SceneDelegate.swift in Sources */,
 				15DB3BA4264C55A00037C88E /* ToDo.swift in Sources */,
+				15DB3BAE264C6AF50037C88E /* AddToDoViewController.swift in Sources */,
 				15DB3B73264C52980037C88E /* ToDoListApp.xcdatamodeld in Sources */,
 				15DB3B9F264C55260037C88E /* ToDoTableViewController.swift in Sources */,
 			);
